@@ -1,0 +1,50 @@
+{
+  "name": "voltalink",
+  "version": "1.0.0",
+  "description": "Define and manage custom domains for your local network",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start -p 8000",
+    "bundle": "cross-env BUNDLE=1 next build",
+    "fmt": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "db:prepare": "drizzle-kit generate && drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:try": "tsx --watch ./db/try.ts",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "@mantine/core": "^7.15.1",
+    "@mantine/form": "^7.15.1",
+    "@mantine/hooks": "^7.15.1",
+    "@mantine/notifications": "^7.15.1",
+    "@tanstack/react-query": "^5.62.8",
+    "bcrypt": "^5.1.1",
+    "cross-env": "^7.0.3",
+    "drizzle-orm": "^0.38.2",
+    "drizzle-zod": "^0.6.0",
+    "ejs": "^3.1.10",
+    "mantine-form-zod-resolver": "^1.1.0",
+    "next": "^15.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "universal-cookie": "^7.2.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@iconify/react": "^5.1.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/ejs": "^3.1.5",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "drizzle-kit": "^0.30.1",
+    "prettier": "^3.4.2",
+    "sass": "1.77.8",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

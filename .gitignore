@@ -1,0 +1,25 @@
+# dependencies
+node_modules*
+.pnpm-store
+
+# cache & locals
+.next
+.turbo
+.env*.local
+data
+
+# local builds
+dist
+standalone
+out
+web-old
+
+# lock files
+package-lock.json
+bun.lockb
+pnpm-lock.yaml
+yarn.lock
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,19 @@
+.box {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-height: 365px) {
+    & {
+      align-items: flex-start;
+    }
+  }
+  & form {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+  }
+}

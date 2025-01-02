@@ -1,0 +1,11 @@
+[
+  {
+    "label": "Dashboard",
+    "icon": "solar:home-smile-angle-outline",
+    "href": "/"
+  },
+  { "label": "DNS Manager", "icon": "eos-icons:dns", "href": "/dns" },
+  { "label": "Reverse Proxy", "icon": "tabler:replace", "href": "/proxy" },
+  { "label": "SSL Certificates", "icon": "ph:certificate", "href": "/certs" },
+  { "label": "Settings", "icon": "solar:settings-outline", "href": "/settings" }
+]

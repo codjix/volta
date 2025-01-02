@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@container pageContent (width < 800px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@container pageContent (width < 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

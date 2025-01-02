@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // ESLint
+    "dsznajder.es7-react-js-snippets", // React Snippets
+    "digitalbrainstem.javascript-ejs-support", // EJS Snippets
+    "esbenp.prettier-vscode", // Prettier
+    "mrmlnc.vscode-scss", // SCSS
+    "antfu.iconify" // Iconify
+  ]
+}
